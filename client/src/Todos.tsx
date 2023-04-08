@@ -219,7 +219,7 @@ const TodoItem = ({ item, onClick }: TodoItemProps) => (
       {item.title}
     </Heading>
     <Show when={item.notes.length > 0}>
-      <Text textAlign="left" mt="$3" noOfLines={4}>
+      <Text textAlign="left" mt="$3" noOfLines={2} lineHeight={1.8}>
         <div innerHTML={item.notes.split("\n").join("<br />")} />
       </Text>
     </Show>
