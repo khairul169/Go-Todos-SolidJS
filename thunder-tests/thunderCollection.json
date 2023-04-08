@@ -1,0 +1,22 @@
+[
+  {
+    "_id": "1239a929-9435-49c7-94f7-e3850dc6992b",
+    "colName": "API",
+    "created": "2023-04-07T21:58:02.799Z",
+    "sortNum": 10000,
+    "folders": [
+      {
+        "_id": "3f50c014-050b-4381-bb01-6566f35acfd2",
+        "name": "todos",
+        "containerId": "",
+        "created": "2023-04-07T21:58:07.021Z",
+        "sortNum": 10000
+      }
+    ],
+    "settings": {
+      "options": {
+        "baseUrl": "{{baseUrl}}"
+      }
+    }
+  }
+]
